@@ -1,0 +1,60 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header
+{
+	color: rgb(0, 0, 0);
+    font-family:cursive;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.login_div
+{
+	background: rgb(255, 255, 255);
+  float: none;
+  border-radius: 25px;
+  height: 550px;
+  width: 500px;
+  margin-top: 150px;
+  box-shadow: 9px 8px 7px rgba(190, 190, 190, 0.642);
+}
+
+#user_tag
+{
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+  color: rgb(165, 165, 165);
+}
+
+#login_button
+{
+	border-radius: 15px;
+  width: 450px;
+  height: 55px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: rgb(76,41,83)
+  
+}
+
+#user
+{
+  border-radius: 15px;
+  height: 45px;
+  width: 450px;
+  background-color: rgb(210, 210, 210);
+  border-width: 0px;
+  color: rgb(0, 0, 0);
+}
