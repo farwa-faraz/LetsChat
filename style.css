@@ -19,9 +19,44 @@ body
     letter-spacing: 5px;
 }
 
+.header img
+{
+	width: 80px;
+  margin-left: -15px;
+  margin-bottom: 10px;
+}
+
+#AddRoom
+{
+  color: #6b6b6b;
+  margin-left: 5px;
+}
+
+#logout
+{
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.color_white
+{
+  color: #000000;
+}
+
 .login_div
 {
 	background: rgb(255, 255, 255);
+  float: none;
+  border-radius: 25px;
+  height: 550px;
+  width: 500px;
+  margin-top: 150px;
+  box-shadow: 9px 8px 7px rgba(190, 190, 190, 0.642);
+}
+
+.container
+{
+  background: rgb(255, 255, 255);
   float: none;
   border-radius: 25px;
   height: 550px;
@@ -50,6 +85,16 @@ body
 }
 
 #user
+{
+  border-radius: 15px;
+  height: 45px;
+  width: 450px;
+  background-color: rgb(210, 210, 210);
+  border-width: 0px;
+  color: rgb(0, 0, 0);
+}
+
+#room
 {
   border-radius: 15px;
   height: 45px;
