@@ -140,3 +140,13 @@ h5
 {
   width: 300px;
 }
+
+#msg
+{
+  border-radius: 15px;
+  height: 45px;
+  width: 320px;
+  background-color: rgb(210, 210, 210);
+  border-width: 0px;
+  color: rgb(0, 0, 0);
+}
