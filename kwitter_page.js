@@ -29,7 +29,7 @@ document.getElementById("msg").value = " ";
 
 
 
-function getData() { firebase.database().ref("/"+room).on('value', function(snapshot) { document.getElementById("output").innerHTML = ""; snapshot.forEach(function(childSnapshot) { childKey  = childSnapshot.key; childData = childSnapshot.val(); if(childKey != "purpose") {
+function getData() { firebase.database().ref("/"+room).on('value', function(snapshot) { document.getElementById("Output").innerHTML = ""; snapshot.forEach(function(childSnapshot) { childKey  = childSnapshot.key; childData = childSnapshot.val(); if(childKey != "purpose") {
          firebase_message_id = childKey;
          message_data = childData;
 //Start code
@@ -45,7 +45,7 @@ button_1 = "<button class='btn btn-warning' id="+firebase_message_id+" value="+l
 button_2 = "<span class='glyphicon glyphicon-thumbs-up'>Like: "+ like +"</span> </button> <hr>";
 
 row = name_tag + message_tag + button_1 + button_2;
-document.getElementById("output").innerHTML += row;
+document.getElementById("Output").innerHTML += row;
 //End code
       } });  }); }
 getData();

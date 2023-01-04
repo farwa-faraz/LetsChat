@@ -123,10 +123,14 @@ body
 	width: 50%; 
 }
 
+#Output
+{
+  height: 270px;
+}
+
 #output
 {
-  height: 10px;
-  scroll-behavior: smooth;
+  height: 165px;
 }
 
 h5
