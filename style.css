@@ -41,6 +41,9 @@ body
 .color_white
 {
   color: #000000;
+  font-size: 18px;
+  margin-top: -30px;
+  margin-bottom: 15px;
 }
 
 .login_div
@@ -102,4 +105,34 @@ body
   background-color: rgb(210, 210, 210);
   border-width: 0px;
   color: rgb(0, 0, 0);
+}
+
+.user_tick
+{
+	width:20px;
+}
+
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+
+#output
+{
+  height: 10px;
+  scroll-behavior: smooth;
+}
+
+h5
+{
+  text-align: left;
+  margin-left: 15px;
+  font-size: 15px;
+  color: #6b6b6b;
 }
